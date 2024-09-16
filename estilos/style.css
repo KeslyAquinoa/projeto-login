@@ -45,9 +45,10 @@ main{
   padding-bottom: 20px;
   background-color: white;
   border-radius: 20px;
+  width: 250px;
+  height: 580px;
   margin: auto;
-  width: 80vw;
-  /* height: 90vh; */
+ /*  width: 80vw; */ 
   
   
   display: flex;
@@ -62,19 +63,21 @@ main{
 }
 
 #login > div > p{
-    width: 70vw;
+    width: 250px;
+    padding:10px ;
    /*  margin: auto;
     display: flex; */ 
 }
  
 
 #login > div > form {
+    width: 220px;
+    margin: auto;
+
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-
 }
 
 #login > div > form > input {
@@ -101,12 +104,13 @@ main{
     border-radius: 8px;
     color:var(--cor01);
 }
-
-#imagem > img{
-    height: 35vh;
-    width: 80vw;
-    border-top-left-radius: 20px;
+#imagem > img {
+    height: 180px;
+     border-top-left-radius: 20px;
     border-top-right-radius: 20px; 
+    /* height: 35vh;
+    width: 80vw;
+    */
 }
 
 /* 
