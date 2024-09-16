@@ -7,7 +7,7 @@ laranja: #f89b29
 */
 
 :root{
-    --cor01:#49a09d;
+    --cor01:#5bc6c3;
     --cor02:#5f2c82;
 }
 
@@ -48,6 +48,7 @@ main{
   background-color: white;
   border-radius: 20px;
   margin: auto;
+  width: 90vw;
 }
 
 #login > div > h1{
@@ -64,27 +65,40 @@ main{
  
 
 #login > div > form {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
+
+}
+
+#login > div > form > input {
+    padding: 10px;
+    border-radius: 8px;
+  /*   border: 2px solid var(--cor02); */
 }
 
 .botao {
     margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--cor01);
 }
 
 #login > div > form > a {
+    padding: 10px;
     text-decoration: none;
-    border: 1px solid rgba(0, 0, 0, 0.175);
+    border: 1px solid rgba(0, 0, 0, 0.359);
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 8px;
     text-align: center;
     color:var(--cor01);
 }
 
 #imagem > img{
-    width: 100vw;
+    width: 90vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
