@@ -48,7 +48,7 @@ main{
   background-color: white;
   border-radius: 20px;
   margin: auto;
-  width: 90vw;
+  width: 80vw;
 }
 
 #login > div > h1{
@@ -98,7 +98,7 @@ main{
 }
 
 #imagem > img{
-    width: 90vw;
+    width: 80vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
