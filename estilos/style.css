@@ -44,6 +44,7 @@ main{
   margin: auto;
   
   
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -57,42 +58,79 @@ main{
 
 #login > div > p{
     padding:10px ;
+    margin-bottom: 10px;
 }
  
 
-#login > div > form {
-    width: 220px;
-    margin: auto;
+#login > div > forme {
+    width: px;
+    
 
 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
-#login > div > form > input {
+  input{
+    width: ;
+    margin: 2px;
     padding: 10px;
     border-radius: 8px;
-  /*   border: 2px solid var(--cor02); */
+}
+
+ .isenha{
+    display: flex;
+    border-radius: 10px;
+    background-color: #5f2c82;
+    margin-top: 5px; 
+    margin-bottom: 20px;
+}
+
+.inome{
+    display: flex;
+    background-color: #5f2c82;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.forme{
+    margin-left: 5px;
+    margin-right: 5px;
+  
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   
+   
+}
+
+label{
+    display: none;
 }
 
 .botao {
-    margin-top: 20px;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
     padding: 10px;
     background-color: var(--cor01);
+    display: block;
+    margin: auto;
 }
 
-#login > div > form > a {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+a {
+    width: 200px;
+    padding: 9px;
     text-decoration: none;
     border: 1px solid rgba(0, 0, 0, 0.359);
-    margin-top: 10px;
+   margin: auto;
     border-radius: 8px;
     color:var(--cor01);
+
+    display: flex;
+    justify-content: center;
+    
 }
 #imagem > img {
     height: 180px;
