@@ -1,4 +1,91 @@
 @charset "UTF-8";
+
+@media screen and (orientation:landscape) {
+   body{
+    background-color: red;
+   } 
+
+    #login{
+        width: 85vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #imagem > img{
+    width: 35vw;
+    height: 80vh;
+    padding-left:0.1px;
+    margin-top: 24px;
+    object-fit: cover;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    }
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%; 
+    
+}
+
+    #formulario> h1{
+       margin: auto;
+       padding-bottom: 0px;
+     }
+
+     #login > div > p {
+      margin-right: 40px;
+        padding: 0px;
+       
+
+     }
+
+    /* #login > div > form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+    } */
+ 
+/* 
+ #login > div > form > input {
+    width: 89%;
+    display: flex;
+    flex-direction: row; */
+ }
+
+
+ .isenha, .inome{
+
+    width: 100%%;
+ }   
+
+
+input{
+    padding: 5px;
+    width: 90%;
+}
+
+a {
+    width: 89%;
+    padding: 5px;
+}  
+
+.botao {
+     padding: 6px;
+    margin-top: 9%;
+    margin-bottom: 3%;
+}
+
+   
+
+
+
+
 @media screen and (min-width: 700px) and (max-width:992px) {
     
     body{
@@ -38,6 +125,7 @@
 
      #login > div > p {
         padding: 0px;
+
      }
 
     /* #login > div > form {
